@@ -1,0 +1,29 @@
+{
+    "name": "agentsib/symfony2-coding-standard",
+    "description": "Symfony2 PHP CodeSniffer Coding Standard",
+    "keywords": ["phpcs", "CodeSniffer", "Symfony2", "Standard"],
+    "license": "MIT",
+    "type": "phpcs-standard",
+    "authors": [
+        {
+            "name": "Ilya Kovalenko",
+            "email": "agentsib@gmail.com",
+            "homepage": "http://agentsib.ru",
+            "role": "maintainer"
+        }
+    ],
+    "support" : {
+        "source": "https://github.com/agentsib/Symfony2-coding-standard",
+        "issues": "https://github.com/agentsib/Symfony2-coding-standard/issues"
+    },
+    "require-dev" : {
+        "squizlabs/php_codesniffer": "*",
+	"goatherd/phpcs_installer": "~1.2"
+    },
+    "suggest": {
+        "goatherd/phpcs_installer": "Automatic installing"
+    },
+    "extra": {
+        "phpcs-standard" : "Symfony2"
+    }
+}
