@@ -24,6 +24,9 @@
         "goatherd/phpcs_installer": "Automatic installing"
     },
     "extra": {
-        "phpcs-standard" : "Symfony2"
+        "phpcs-standard" : "Symfony2",
+	"branch-alias": {
+            "dev-master": "1.0-dev"
+        }
     }
 }
